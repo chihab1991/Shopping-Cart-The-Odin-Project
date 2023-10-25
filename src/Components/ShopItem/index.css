@@ -1,0 +1,53 @@
+img {
+    /* display: block; */
+    width: 80%;
+    height: 200px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    width: 2.5rem;
+    padding: .2rem .5rem;
+    font-size: 1.2rem;
+    /* border-radius: 3px; */
+    outline: none;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.shop-el {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition-duration: .4s;
+    text-align: center;
+    padding: 1rem;
+}
+
+.shop-el:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.shop-el h3 {
+    margin: 1.5rem 0 .7rem;
+    height: 60px;
+}
+
+.shop-el p {
+    margin-bottom: .7rem;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity button {
+    padding: .2rem .5rem;
+    font-size: 1.1rem;
+}
